@@ -5,8 +5,8 @@
 <br> <br>
 
 ## Overview
-#### ▪Phase 1 | System Planning and Distribution Selection
-#### ▪Phase 2 | Security Planning and Testing Methodology
+#### ▪[Phase 1 | System Planning and Distribution Selection](phase1.md)
+#### ▪[Phase 2 | Security Planning and Testing Methodology](phase2.md)
 #### ▪Phase 3 | Application Selection for Performance Testing
 #### ▪Phase 4 | Initial System Configuration & Security Implementation
 #### ▪Phase 5 | Advanced Security and Monitoring Infrastructure
