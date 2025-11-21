@@ -1,4 +1,4 @@
-<a href="pages/index.md"> 🏠︎Home </a>
+<a href="index.md"> 🏠︎Home </a>
 <h1 align= "center"> Phase 1 | System Planning and Distribution Selection </h1>
 <br> <br>
 <img 
@@ -22,5 +22,5 @@ This System Architecture Diagram provides a basic view of how my two virtual mac
 
 <br> <br>
 <p align= "right">
-  <a href="pages/phase2.md"> (next) </a>
+  <a href="phase2.md"> (next) </a>
 </p>
