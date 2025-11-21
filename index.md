@@ -1,8 +1,3 @@
----
-layout: page
-title: 
-header: false
----
 <h1 align= "center"> Operating Systems Coursework <br> Technical Journal </h1>
 <br>
 <p align= "center"> This journal follows my progress over seven weeks while completing my second-year Operating Systems coursework project. The seven weeks are split into seven
