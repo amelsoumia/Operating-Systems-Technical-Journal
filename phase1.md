@@ -54,8 +54,6 @@ I chose to use a virtual Ubuntu Desktop on VirtualBox to run the server rather t
     </td>
   </tr>
 </table>
-<br clear="all">
-
 For both of the VMs above, I chose to configure them with NAT *and* Host-Only network connections. NAT will allow me to install packages without sacrificing the security of my VMs as they have a one-way connection to the internet. The Host-Only connection will allow the Desktop VM to connect to the Server VM via SSH later in the project. 
 
 ## CLI Specification Documentation
