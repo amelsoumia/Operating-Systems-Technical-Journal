@@ -3,9 +3,9 @@
 <br>
 
 ## Performance Testing Plan
-I will be testing the Server VM’s performance remotely using the Desktop VM to connect via SSH through a Host-Only network.  Therefore, the tests will take place in the CLI using tools such as nmon to monitor CPU, RAM, I/O and network performance under different workloads targeting each subsystem. 
+I will be testing the Server VM’s performance remotely using the Desktop VM to connect via SSH through a Host-Only network.  Therefore, the tests will take place in the CLI using tools such as *nmon* to monitor CPU, RAM, I/O and network performance under different workloads targeting each subsystem. 
 
-I will primarily use nmon to test my system, as it displays all the necessary performance metrics in one place, making documentation cleaner and more accurate. In addition, to get deeper information from different perspectives about each individual subsystem, tools like mpstat, htop, iotop, iostat and vmstat can be used. This also helps validate the results obtained from nmon.
+I will primarily use *nmon* to test my system, as it displays all the necessary performance metrics in one place, making documentation cleaner and more accurate. In addition, to get deeper information from different perspectives about each individual subsystem, tools like *mpstat*, *htop*, *iotop*, *iostat* and *vmstat* can be used. This also helps validate the results obtained from *nmon*.
 
 ## Security Configuration Checklist
 <table>
@@ -108,6 +108,7 @@ Configuration files can be made immutable by the root user when changes are not 
 
 After taking all the necessary measures, the overall risk of threats is significantly reduced as the likelihood and impact of attacks become low.
 
+<br>
 <p align= "right">
   <a href="phase3.html"> Next </a>
 </p>
