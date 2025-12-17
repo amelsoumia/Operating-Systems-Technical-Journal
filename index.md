@@ -7,8 +7,8 @@
 ## Overview
 #### ▪[Phase 1 | System Planning and Distribution Selection](phase1.md)
 #### ▪[Phase 2 | Security Planning and Testing Methodology](phase2.md)
-#### ▪Phase 3 | Application Selection for Performance Testing
-#### ▪Phase 4 | Initial System Configuration & Security Implementation
-#### ▪Phase 5 | Advanced Security and Monitoring Infrastructure
-#### ▪Phase 6 | Performance Evaluation and Analysis
-#### ▪Phase 7 | Security Audit and System Evaluation
+#### ▪[Phase 3 | Application Selection for Performance Testing](phase3.md)
+#### ▪[Phase 4 | Initial System Configuration & Security Implementation](phase4.md)
+#### ▪[Phase 5 | Advanced Security and Monitoring Infrastructure](phase5.md)
+#### ▪[Phase 6 | Performance Evaluation and Analysis](phase6.md)
+#### ▪[Phase 7 | Security Audit and System Evaluation](phase7.md)
