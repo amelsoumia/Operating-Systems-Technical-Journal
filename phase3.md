@@ -21,7 +21,7 @@
   <tr>
     <td>stress-ng</td>
     <td>RAM-intensive</td>
-    <td>stress-ng --vm-bytes 75% --timeout [time to run in seconds]</td>
+    <td>stress-ng --vm 1 --vm-bytes 75% --timeout [time to run in seconds]</td>
     <td>Allows direct application of the workload through a simple command that can specifically target the RAM while also providing full control over the parameters.</td>
   </tr>
 
