@@ -74,6 +74,59 @@ While performing the application load testing for each workload type, I used bot
 </table>
 Overall, the system performed slightly differently to what was predicted, however not in an unexpected way. CPU usage was high throughout the load testing, demonstrating active workload scheduling, while RAM usage was moderate. Network and disk activities were relatively low when not directly tested. Disk I/O seems to be the bottleneck, as its slow performance caused a significant portion of the processes to be held at waiting a state. It's unlikely that security configurations directly impacted these results as Disk I/O was otherwise low, however, they can increase I/O overhead due to logging, auditing and file scanning.
 
+To optimise Disk I/O, it's possible to increase queue depth, allowing more processes to be queued and processed at the same time rather than them waiting. 
+
+## Performance Data
+<table>
+  <tr>
+    <th>Workload Type</th>
+    <th>Average CPU Utilisation</th>
+    <th>Average Memory Utilisation</th>
+    <th>Average Disk I/O</th>
+    <th>Average Network Throughput</th>
+  </tr>
+
+  <tr>
+    <td>CPU-intensive (stress-ng)</td>
+    <td>High</td>
+    <td>High</td>
+    <td>Low/None</td>
+    <td>Low/None</td>
+  </tr>
+
+  <tr>
+    <td>RAM-intensive (stress-ng)</td>
+    <td>High</td>
+    <td>High</td>
+    <td>Low/None</td>
+    <td>Low/None</td>
+  </tr>
+
+  <tr>
+    <td>I/O-intensive (fio)</td>
+    <td>High</td>
+    <td>Moderate</td>
+    <td>High</td>
+    <td>Low/None</td>
+  </tr>
+
+<tr>
+    <td>Network-intensive (iperf3)</td>
+    <td>High</td>
+    <td>Moderate</td>
+    <td>Low/None</td>
+    <td>High</td>
+  </tr>
+  
+  <tr>
+    <td>Minecraft Server</td>
+    <td>Low</td>
+    <td>High</td>
+    <td>Low/None</td>
+    <td>Low/None</td>
+  </tr>
+</table>
+
 <br>
 <p align= "right">
   <a href="phase7.html"> Next </a>
