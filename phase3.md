@@ -28,7 +28,7 @@
   <tr>
     <td>fio</td>
     <td>I/O-intensive</td>
-    <td>fio --rw=readwrite --bs=4k --direct=1 --numjobs=1 --time_based --runtime=[time to run in seconds]</td>
+    <td>fio --name=test --rw=randrw --bs=4k --direct=1 --numjobs=1 --time_based --runtime=[time to run in seconds] --size=1G --directory=/tmp</td>
     <td>
       Also allows direct application of the workload, specifically I/O-intensive, and also provides full control over parameters to match testing styles across applications.
     </td>
@@ -70,7 +70,7 @@ The applications above, up until the Server, allow consistent and specific targe
    *sudo apt install stress-ng* <br> <br>
    *sudo apt install fio* <br> <br>
    *sudo apt install iperf3* <br> <br>
-   *sudo apt install openjdk-17-jre-headless* <br>
+   *sudo apt install openjdk-25-jre-headless* <br>
    *mkdir /path/to/minecraft-server* <br>
    *wget -O /path/to/minecraft-server/mcserver.jar [URL of Minecraft Server JAR]* 
   
