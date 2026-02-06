@@ -31,4 +31,5 @@ I have already masked unnecessary services, leaving the services above enabled a
 
 ## Security Configuration Check
 <img width="263" height="126" alt="Baseline check" src="https://github.com/user-attachments/assets/3b57b0c3-8f94-4050-8e4b-e91f67e5cabe" /> <br>
-Above, I ran my security baseline script which checks if all the core security configurations are enabled and ouputs the result of each check in the command line.
+Above, I ran my security baseline script which checks if all the core security configurations are enabled and ouputs the result of each check in the command line. Using the script creates automation which reduces the likelihood of human error, repetition and time consumption. 
+
