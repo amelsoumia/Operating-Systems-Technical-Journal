@@ -16,6 +16,22 @@
 <img width="563" height="46" alt="Fail2ban config" src="https://github.com/user-attachments/assets/6836925e-617d-40d5-bcb8-4c7fce251bf5" /> <br>
 <img width="605" height="181" alt="Fail2ban status" src="https://github.com/user-attachments/assets/e0214a0b-40ed-4a61-ab21-cdb3ef13b0f4" />
 
+## Script Content
+<img width="411" height="119" alt="Script1Run" src="https://github.com/user-attachments/assets/5c7f63d0-24ef-4a82-a329-bf3b4857e12f" />
+<img width="603" height="143" alt="Script1 Example" src="https://github.com/user-attachments/assets/37755880-f7a8-42c3-af1c-b43bacfca711" />
+<img width="601" height="229" alt="Script1 Example2" src="https://github.com/user-attachments/assets/160ff93a-9a3c-4180-83e2-168d4c225457" />
+<img width="605" height="157" alt="Script1 Example3" src="https://github.com/user-attachments/assets/6c32f03a-d7cb-4fae-bc3e-caa988e78662" />
+
+Above are some examples from the security baseline script to demonstrate how it will be verifyig that the necessary configurations are put in place.
+
+<br>
+
+<img width="598" height="193" alt="Script2Run" src="https://github.com/user-attachments/assets/577ed721-0a4f-4e1e-b4f1-cc1cc0e0413d" />
+<img width="484" height="340" alt="Script2" src="https://github.com/user-attachments/assets/a901711b-066f-4662-b73c-32cff8ab163a" />
+
+Above shows how the performance monitoring script connects to the server VM from the desktop VM, and which performance tests it executes.
+
+
 <br>
 <p align= "right">
   <a href="phase6.html"> Next </a>
