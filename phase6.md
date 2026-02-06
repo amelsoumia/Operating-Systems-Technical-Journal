@@ -27,7 +27,7 @@ While performing the application load testing for each workload type, I used bot
   <tr> 
     <th></th>
     <th>CPU</th>
-    <th>Disk</th>
+    <th>Memory</th>
     <th>I/O</th>
     <th>Network</th>
     <th>Server</th>
@@ -36,9 +36,11 @@ While performing the application load testing for each workload type, I used bot
   <tr>
     <th>Individual Views</th>
     <td>
+      <img width="359" height="86" alt="STRESSNG CPU RUNNING" src="https://github.com/user-attachments/assets/26894c44-4f75-494f-b3dc-dcdff12b7019" />
       <img width="400" height="200" alt="TOP CPU INTENSIVE" src="https://github.com/user-attachments/assets/54f92ad3-9b7e-4ee7-842e-15b59afc9ca3" />
     </td>
     <td>
+      <img width="377" height="89" alt="STRESSING RAM RUNNING" src="https://github.com/user-attachments/assets/00a2856c-fffd-4e80-93cb-090f576c93f6" />
       <img width="400" height="200" alt="RAM INTENSIVE FREE -H VMSTAT" src="https://github.com/user-attachments/assets/265bbb78-68d5-447d-a8f8-c3d7a366455c" />
     </td>
     <td>
@@ -46,10 +48,10 @@ While performing the application load testing for each workload type, I used bot
       <img width="400" height="200" alt="IOSTAT IO INTENSIVE" src="https://github.com/user-attachments/assets/1777c9ae-e83e-441d-8c29-2138fe5d7ab1" />
     </td>
     <td>
+      <img width="333" height="52" alt="IPERF3 SERVER STREAM" src="https://github.com/user-attachments/assets/9e4b9c7f-4ef4-4508-8d8a-84dd597951cb" />
+      <img width="400" height="200" alt="IPERF3 SERVER STATS" src="https://github.com/user-attachments/assets/2088ea73-9342-43cf-a464-f533f351d200" />
       <img width="400" height="200" alt="ACTUAL NETWORK IP S LINK" src="https://github.com/user-attachments/assets/1ebd00f1-2800-4f19-b108-e2f4ad3f569f" />
     </td>
-    <td>
-      <img width="400" height="200" alt="IPERF3 SERVER STATS" src="https://github.com/user-attachments/assets/2088ea73-9342-43cf-a464-f533f351d200" />
     </td>
   </tr>
 
